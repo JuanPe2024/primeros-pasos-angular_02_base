@@ -34,7 +34,8 @@ export class HeroComponent {
     //this.name = 'ironman';
     this.age = 45;
 
-    //Ciclo control de cambios
+    //Ciclo de deteccion de cammbios desde dentro de Angular,
+    // desde JS puede que no se detecte el control de cambios
 
     document.querySelectorAll('h1')!.forEach(element=>{
       element.innerHTML = '<h1>Desde Angular</h1>'
